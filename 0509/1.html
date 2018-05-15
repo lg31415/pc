@@ -1,0 +1,2213 @@
+/Library/Frameworks/Python.framework/Versions/3.6/bin/python3 /Users/white/Desktop/爬虫/0511/hacpai.py
+Traceback (most recent call last):
+  File "/Users/white/Desktop/爬虫/0511/hacpai.py", line 14, in <module>
+    main()
+  File "/Users/white/Desktop/爬虫/0511/hacpai.py", line 9, in main
+    pc = etree.parse(html)
+  File "src/lxml/etree.pyx", line 3426, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1839, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1865, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 1769, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1162, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 600, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 710, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 637, in lxml.etree._raiseParseError
+OSError: Error reading file '<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <head>
+        <meta name="description" content="黑客派是程序员和设计师的聚集地，汇聚了严谨求实的工程师和富有创意的设计师"/>
+        <link rel="stylesheet" href="https://static.hacpai.com/skins/classic/css/index.css?1525247914201" />
+    </head>
+    <body>
+<div class="nav">
+    <h1 aria-label="黑客派" class="tooltipped tooltipped__s">
+        <a href="https://hacpai.com">
+            <svg><use xlink:href="#iconLogo"></use></svg>
+        </a>
+    </h1>
+    <div class="nav-tabs">
+        <a pjax-title="好玩 - 领域 - 黑客派" href="https://hacpai.com/domain/play"><svg height='14' viewBox='0 0 14 14' width='14'><path d='M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z'></path></svg> 好玩</a>
+        <a pjax-title="区块链 - 领域 - 黑客派" href="https://hacpai.com/domain/blockchain"><svg height='14' viewBox='0 0 14 14' width='14'><path d='M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0V10h3.6L4.5 8.2l0.9 5.4L9 8.5l1.6 1.5H14V8H11.5z'></path></svg> 区块链</a>
+        <a pjax-title="前端 - 领域 - 黑客派" href="https://hacpai.com/domain/frontend"><svg height='14' width='14' viewBox='0 0 14 14'><path d='M9.5 3l-1.5 1.5 3.5 3.5L8 11.5l1.5 1.5 4.5-5L9.5 3zM4.5 3L0 8l4.5 5 1.5-1.5L2.5 8l3.5-3.5L4.5 3z'></path></svg> 前端</a>
+        <a pjax-title="后端 - 领域 - 黑客派" href="https://hacpai.com/domain/backend"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'> <title></title> <g id='icomoon-ignore'> </g> <path d='M372.573 90.903c-14.724 10.37-29.063 19.205-44.811 32.008-11.907 9.731-33.416 23.046-34.569 40.97-1.793 27.271 40.202 52.493 17.925 87.062-8.45 13.188-22.789 18.82-40.97 26.887-2.176-3.969 4.737-7.298 7.682-11.523 27.911-40.458-29.064-53.901-21.765-103.706 7.042-48.14 63.76-64.912 116.509-71.698z'></path> <path d='M194.608 257.344c-13.188 6.146-35.209 7.298-44.811 20.485 9.731 7.298 23.942 7.042 37.13 7.682 54.030 2.433 121.631-2.176 167.722-10.243 1.536 3.329-6.401 9.091-11.523 12.803-29.063 21.253-119.454 27.271-181.805 23.046-20.869-1.409-68.625-6.913-69.138-25.606-0.64-22.661 57.871-25.094 81.941-26.887 4.737-0.384 13.572-2.305 20.485-1.281z'></path> <path d='M167.722 314.959c6.018 0.768-4.225 4.353-2.56 8.962 22.022 21.765 90.518 15.62 124.191 8.962 7.042-1.409 14.084-5.634 19.205-5.122 12.803 1.152 20.997 16.004 32.008 17.925-38.921 17.541-114.077 25.863-169.002 15.364-14.212-2.688-38.922-10.37-39.69-21.765-1.153-15.492 24.454-22.022 35.849-24.326z'></path> <path d='M184.366 367.452c3.969 1.281-1.409 3.457-1.28 5.122 11.651 20.229 69.266 13.060 98.584 6.401 5.889-1.409 11.779-5.505 16.644-5.122 14.851 1.024 20.485 16.516 33.288 19.205-40.842 24.966-139.811 35.081-180.525 3.841-1.921-22.789 16.388-25.351 33.288-29.447z'></path> <path d='M147.237 405.861c-12.163 3.073-43.659-1.281-44.811 15.364-0.384 6.401 10.755 13.955 17.924 16.644 41.739 15.748 125.6 18.18 194.608 10.243 32.008-3.713 92.183-14.467 84.501-47.372 9.603 1.152 18.18 7.298 19.205 16.644 3.841 35.337-77.332 50.188-110.108 53.774-71.314 7.81-160.424 6.274-215.094-12.803-17.797-6.146-39.306-17.541-38.41-34.569 1.536-28.679 70.674-36.617 92.183-17.925z'></path> <path d='M256.064 512c-48.012-5.25-94.231-12.291-133.154-29.447 101.786 24.454 250.175 22.661 321.361-29.447 3.841-2.817 7.426-8.322 12.803-7.682-17.925 53.774-86.805 57.486-145.957 66.577-18.437 0-36.745 0-55.054 0z'></path> <path d='M289.353 3.841c8.962 8.45 15.364 24.198 15.364 40.97 0 49.548-52.493 78.227-78.1 111.388-5.633 7.426-12.931 18.821-12.803 30.727 0.256 27.015 28.167 57.231 38.41 79.38-17.924-11.779-39.69-27.527-55.054-46.091-15.364-18.436-30.727-48.396-16.644-74.258 21.125-38.922 83.989-62.096 106.266-103.706 5.377-10.114 9.603-25.607 2.56-38.41z'></path> <path d='M364.891 270.147c26.375-22.534 71.058-13.7 72.978 24.326 2.176 44.555-46.603 69.522-81.94 71.698 16.388-15.62 59.663-40.714 51.213-76.819-3.457-14.596-21.637-23.43-42.25-19.205z'></path> </svg> 后端</a>
+        <a pjax-title="工作 - 领域 - 黑客派" href="https://hacpai.com/domain/jobs"><svg height='16' viewBox='0 0 14 16' width='14'><path d='M16 14v1H0V0h1v14h15z m-11-1H3V8h2v5z m4 0H7V3h2v10z m4 0H11V6h2v7z'></path></svg> 工作</a>
+        <a pjax-title="B3 - 领域 - 黑客派" href="https://hacpai.com/domain/b3"><svg height='16'  viewBox='0 0 14 16' width='14'><path d='M11 11.28c0-1.73 0-6.28 0-6.28-0.03-0.78-0.34-1.47-0.94-2.06s-1.28-0.91-2.06-0.94c0 0-1.02 0-1 0V0L4 3l3 3V4h1c0.27 0.02 0.48 0.11 0.69 0.31s0.3 0.42 0.31 0.69v6.28c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72z m-1 2.92c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2zM4 3c0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72 0 1.55 0 5.56 0 6.56-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V4.72c0.59-0.34 1-0.98 1-1.72z m-0.8 10c0 0.66-0.55 1.2-1.2 1.2s-1.2-0.55-1.2-1.2 0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2z m-1.2-8.8c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z'></path></svg> B3</a>
+        <a pjax-title="最新 - 黑客派" href="https://hacpai.com/recent" class="current">
+           <svg><use xlink:href="#refresh"></use></svg> 最新</a>
+        <a href="https://hacpai.com/perfect">
+            <svg><use xlink:href="#iconPerfect"></use></svg> 优选</a>
+    </div>
+    <form class="responsive-hide fn-left" target="_blank" action="/search">
+        <input class="search" placeholder="Search HacPai" type="text" name="key" id="algoliaSearch" value="" >
+        <input type="submit" class="fn-none" value=""/>
+    </form>
+    <div class="user-nav">
+            <a id="navLogin" href="javascript: Util.goLogin();" class="unlogin">登录</a>
+            <a id="navRegister" href="javascript:Util.goRegister()" class="unlogin">注册</a>
+    </div>
+</div>
+        <div class="main">
+            <div class="wrapper">
+                <div class="content fn-clear" id="recent-pjax-container">
+                                        <div class="module">
+                        <div class="tabs-sub fn-clear">
+                            <a pjax-title="最新 - 黑客派" class="tabs-sub__item tabs-sub__item--current" href="https://hacpai.com/recent">默认</a>
+                            <a pjax-title="热议 - 黑客派"  class="tabs-sub__item " href="https://hacpai.com/recent/hot">热议</a>
+                            <a pjax-title="好评 - 黑客派"  class="tabs-sub__item " href="https://hacpai.com/recent/good"><svg class="fn-text-top"><use xlink:href="#thumbs-up"></use></svg> 好评</a>
+                            <a pjax-title="最近回帖 - 黑客派"  class="tabs-sub__item " href="https://hacpai.com/recent/reply">最近回帖</a>
+                            <a class="tabs-sub__link" href="https://hacpai.com">首页</a>
+                        </div>
+                        <div class="pagination pagination--top">
+    <div class="fn__flex">
+        <div class="fn__flex-1">
+                    <span class="pagination__item pagination__item--current">1</span>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=2">2</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=3">3</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=4">4</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=5">5</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=6">6</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=7">7</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=8">8</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=9">9</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=10">10</a>
+                <span class="ft__fade pagination__item">...</span>
+                <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派" rel="next"
+                   href="https://hacpai.com/recent?p=247">247»</a>
+        </div>
+            <span class="pagination__item">
+            <svg class="ft__fade">
+                <use xlink:href="#iconChevronLeft"></use>
+            </svg>
+        </span>
+            <a class="pagination__item pagination__item--a" href="https://hacpai.com/recent?p=2"
+               pjax-title="最新 - 黑客派">
+                <svg>
+                    <use xlink:href="#iconChevronRight"></use>
+                </svg>
+            </a>
+    </div>
+                        </div>
+<div class="article-list">
+    <ul>
+<li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/TGIF">TGIF</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/workplace">职场</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/B3log">B3log</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1526000054444" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1526000054444" target="_self">20180511 TGIF</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/yangyujiao">
+                <div class="avatar tooltipped__user"
+                     aria-name="yangyujiao"
+                     data-src="https://img.hacpai.com/avatar/1429237272905_1483064274321.undefined?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="yangyujiao"
+                   href="https://hacpai.com/member/yangyujiao">
+                yangyujiao</a></span>
+
+                    - 人间有味是清欢。
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1526000054444#comments" target="_self"><span
+                        class="article-level2">27</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1526000054444" target="_self"><span
+                        class="article-level1">
+                        146</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:18px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E7%A6%8F%E5%88%A9">福利</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E7%AB%8B%E5%B8%96%E4%B8%BA%E8%AF%81">立帖为证</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E9%98%BF%E7%A6%BB">阿离</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525964979372" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525964979372" target="_self">无任何附加条件赠送 5000 积分</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/clenji">
+                <div class="avatar tooltipped__user"
+                     aria-name="clenji"
+                     data-src="https://img.hacpai.com/avatar/1522241712435_1522241813426.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="clenji"
+                   href="https://hacpai.com/member/clenji">
+                clenji</a></span>
+
+                    - 互联网小站长、java程序员、运营爱好者，关心开源与喜欢的一切
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525964979372#comments" target="_self"><span
+                        class="article-level3">33</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525964979372" target="_self"><span
+                        class="article-level2">
+                        206</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:18px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Docker">Docker</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Linux">Linux</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/CentOS">CentOS</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Spring">Spring</a>&nbsp;
+
+            <h2 class="article-list__title">
+    <span class="tooltipped tooltipped__w" aria-label="优选"><svg><use xlink:href="#iconPerfect"></use></svg></span>
+                <a data-id="1525961874479" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525961874479" target="_self">我的 docker 探索之路</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/xjtushilei">
+                <div class="avatar tooltipped__user"
+                     aria-name="xjtushilei"
+                     data-src="https://img.hacpai.com/avatar/1484222007591_1484222297097.jpeg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="xjtushilei"
+                   href="https://hacpai.com/member/xjtushilei">
+                xjtushilei</a></span>
+
+                    - 一名学生，喜欢钻研，热爱技术
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525961874479#comments" target="_self"><span
+                        class="article-level0">2</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525961874479" target="_self"><span
+                        class="article-level1">
+                        117</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:48px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/XSpreadsheet">XSpreadsheet</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/JavaScript">JavaScript</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E8%A1%A8%E6%A0%BC">表格</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/opensource">开源</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525940224585" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525940224585" target="_self">xspreadsheet 是一款基于 javascript 开发的，简单的，易用的在线表格插件</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/myliang">
+                <div class="avatar tooltipped__user"
+                     aria-name="myliang"
+                     data-src="https://img.hacpai.com/avatar/1512566173236_1512566310693.png?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="myliang"
+                   href="https://hacpai.com/member/myliang">
+                myliang</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525940224585#comments" target="_self"><span
+                        class="article-level0">2</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525940224585" target="_self"><span
+                        class="article-level0">
+                        38</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/golang">golang</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Markdown">Markdown</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/HTML">HTML</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525932429629" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525932429629" target="_self">关于前台 html 转换为 md 格式显示的问题</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/ma1ive">
+                <div class="avatar tooltipped__user"
+                     aria-name="ma1ive"
+                     data-src="https://img.hacpai.com/avatar/1463922464258_1517794383516.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="ma1ive"
+                   href="https://hacpai.com/member/ma1ive">
+                ma1ive</a></span>
+
+                    - 一个菜逼的还不算程序员的程序猿，跪求一名大神带带小弟
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525932429629#comments" target="_self"><span
+                        class="article-level0">1</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525932429629" target="_self"><span
+                        class="article-level0">
+                        38</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E9%AA%8C%E8%AF%81%E7%A0%81">验证码</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%9C%BA%E5%99%A8%E4%BA%BA">机器人</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/qna">Q&A</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525922923572" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525922923572" target="_self">请教问题: 如何有效防止机器人刷邀请注册。</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/ibut">
+                <div class="avatar tooltipped__user"
+                     aria-name="ibut"
+                     data-src="https://img.hacpai.com/avatar/1487667104882_1487667189622.jpeg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="ibut"
+                   href="https://hacpai.com/member/ibut">
+                ibut</a></span>
+
+                    - 做好一件事！
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525922923572#comments" target="_self"><span
+                        class="article-level0">3</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525922923572" target="_self"><span
+                        class="article-level0">
+                        47</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/BloomFilter">BloomFilter</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E8%AF%AF%E7%AE%97%E7%8E%87">误算率</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525921023784" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525921023784" target="_self">Bloom Filter(布隆过滤器)</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/wanglei0622">
+                <div class="avatar tooltipped__user"
+                     aria-name="wanglei0622"
+                     data-src="https://img.hacpai.com/avatar/1461226917417_1516159922779.png?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="wanglei0622"
+                   href="https://hacpai.com/member/wanglei0622">
+                wanglei0622</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525921023784" target="_self"><span
+                        class="article-level0">
+                        17</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/QQ">QQ</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%BA%BA%E7%BE%A4">人群</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E5%A4%A7%E4%BC%97%E5%BF%83%E7%90%86">大众心理</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%BA%BA%E6%80%A7">人性</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525887207949" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525887207949" target="_self">QQ 出了点小故障以后……</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/clenji">
+                <div class="avatar tooltipped__user"
+                     aria-name="clenji"
+                     data-src="https://img.hacpai.com/avatar/1522241712435_1522241813426.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="clenji"
+                   href="https://hacpai.com/member/clenji">
+                clenji</a></span>
+
+                    - 互联网小站长、java程序员、运营爱好者，关心开源与喜欢的一切
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525887207949#comments" target="_self"><span
+                        class="article-level1">10</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525887207949" target="_self"><span
+                        class="article-level1">
+                        193</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/microservice">微服务</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E5%A4%8D%E6%9D%82%E6%80%A7">复杂性</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525858077232" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525858077232" target="_self">微服务的利弊</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/wanglei0622">
+                <div class="avatar tooltipped__user"
+                     aria-name="wanglei0622"
+                     data-src="https://img.hacpai.com/avatar/1461226917417_1516159922779.png?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="wanglei0622"
+                   href="https://hacpai.com/member/wanglei0622">
+                wanglei0622</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525858077232" target="_self"><span
+                        class="article-level0">
+                        39</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/recruit">招聘</a>&nbsp;
+
+            <h2 class="article-list__title">
+    <span class="tooltipped tooltipped__w" aria-label="同城广播"><svg><use xlink:href="#iconFeed"></use></svg></span>
+                <a data-id="1525849219148" data-type="2" rel="bookmark"
+                   href="https://hacpai.com/article/1525849219148" target="_self">招聘了，招聘了，进来看看</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/54FCS">
+                <div class="avatar tooltipped__user"
+                     aria-name="54FCS"
+                     data-src="https://img.hacpai.com/avatar/1516776184527_1516792132790.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="54FCS"
+                   href="https://hacpai.com/member/54FCS">
+                54FCS</a></span>
+
+                    - 我是一只小小鸟
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525849219148#comments" target="_self"><span
+                        class="article-level0">6</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525849219148" target="_self"><span
+                        class="article-level3">
+                        354</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:9px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Oracle">Oracle</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/CentOS">CentOS</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525847785573" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525847785573" target="_self">CentOS 6.4 下安装 Oracle 11gR2</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/LuckyAngel39">
+                <div class="avatar tooltipped__user"
+                     aria-name="LuckyAngel39"
+                     data-src="https://img.hacpai.com/avatar/1524885604704_1524885861310.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="LuckyAngel39"
+                   href="https://hacpai.com/member/LuckyAngel39">
+                LuckyAngel39</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525847785573" target="_self"><span
+                        class="article-level0">
+                        21</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/movie">电影</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E8%93%9D%E5%85%89">蓝光</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/4k">4k</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525776055436" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525776055436" target="_self">电影国度 - 蓝光电影下载站</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/moviegd">
+                <div class="avatar tooltipped__user"
+                     aria-name="moviegd"
+                     data-src="https://img.hacpai.com/avatar/1519036972778_1519611611355.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="moviegd"
+                   href="https://hacpai.com/member/moviegd">
+                moviegd</a></span>
+
+                    - 一个电影站的站长曾在重庆某地学习过java，自己写过几天bug。
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525776055436#comments" target="_self"><span
+                        class="article-level1">17</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525776055436" target="_self"><span
+                        class="article-level3">
+                        322</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%9C%AB%E6%97%A5">末日</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525769585398" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525769585398" target="_self">若明日就是末日，你会做什么？</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/54FCS">
+                <div class="avatar tooltipped__user"
+                     aria-name="54FCS"
+                     data-src="https://img.hacpai.com/avatar/1516776184527_1516792132790.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="54FCS"
+                   href="https://hacpai.com/member/54FCS">
+                54FCS</a></span>
+
+                    - 我是一只小小鸟
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525769585398#comments" target="_self"><span
+                        class="article-level1">16</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525769585398" target="_self"><span
+                        class="article-level0">
+                        93</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/startup">创业</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/travel">旅游</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%B2%89%E6%80%9D">沉思</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%BF%80%E6%83%85">激情</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525746557196" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525746557196" target="_self">钓鳄鱼 小记 \- 创业者就应该有鳄鱼精神 伺机而动 无所畏惧</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/virgil">
+                <div class="avatar tooltipped__user"
+                     aria-name="virgil"
+                     data-src="https://img.hacpai.com/avatar/1525329459858?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="virgil"
+                   href="https://hacpai.com/member/virgil">
+                virgil</a></span>
+
+                    - 好奇，爱探索，爱社交
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525746557196#comments" target="_self"><span
+                        class="article-level0">2</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525746557196" target="_self"><span
+                        class="article-level0">
+                        49</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/blockchain">区块链</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/big_data">大数据</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%BD%AE%E6%9D%83">数据处置权</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%95%B0%E5%AD%97%E6%B0%91%E4%B8%BB%E5%8C%96">数字民主化</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525746398933" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525746398933" target="_self">区块链给我们的，也许不只一次数字民主化革命</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/virgil">
+                <div class="avatar tooltipped__user"
+                     aria-name="virgil"
+                     data-src="https://img.hacpai.com/avatar/1525329459858?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="virgil"
+                   href="https://hacpai.com/member/virgil">
+                virgil</a></span>
+
+                    - 好奇，爱探索，爱社交
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525746398933#comments" target="_self"><span
+                        class="article-level0">1</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525746398933" target="_self"><span
+                        class="article-level0">
+                        79</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91">科学上网</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87">每日一文</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88">全栈工程师</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E9%85%B8%E9%85%B8%E4%B9%B3">酸酸乳</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525744808024" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525744808024" target="_self">酸酸乳翻墙啦！</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/wongH92">
+                <div class="avatar tooltipped__user"
+                     aria-name="wongH92"
+                     data-src="https://img.hacpai.com/avatar/1489712947122_1521615397408.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="wongH92"
+                   href="https://hacpai.com/member/wongH92">
+                wongH92</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525744808024#comments" target="_self"><span
+                        class="article-level0">3</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525744808024" target="_self"><span
+                        class="article-level1">
+                        114</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Linux">Linux</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/opensource">开源</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/share">分享</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Nuster">Nuster</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525744091423" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525744091423" target="_self">高性能缓存服务器 nuster v1.8.8.1 发布，支持 HTTP/2，多线程</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/wubodibo">
+                <div class="avatar tooltipped__user"
+                     aria-name="wubodibo"
+                     data-src="https://img.hacpai.com/avatar/1520993392687?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="wubodibo"
+                   href="https://hacpai.com/member/wubodibo">
+                wubodibo</a></span>
+
+                    - 高性能缓存服务器 nuster
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525744091423#comments" target="_self"><span
+                        class="article-level0">3</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525744091423" target="_self"><span
+                        class="article-level0">
+                        75</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/HacPai">黑客派</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E7%AD%BE%E5%88%B0">签到</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%BC%98%E5%8C%96">优化</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525712892329" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525712892329" target="_self">社区的签到急需优化</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/clenji">
+                <div class="avatar tooltipped__user"
+                     aria-name="clenji"
+                     data-src="https://img.hacpai.com/avatar/1522241712435_1522241813426.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="clenji"
+                   href="https://hacpai.com/member/clenji">
+                clenji</a></span>
+
+                    - 互联网小站长、java程序员、运营爱好者，关心开源与喜欢的一切
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525712892329#comments" target="_self"><span
+                        class="article-level1">10</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525712892329" target="_self"><span
+                        class="article-level0">
+                        90</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/P2P">P2P</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/blockchain">区块链</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525702971349" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525702971349" target="_self">分享 p2p 的相关资料，希望对学习区块链的小伙伴有帮助</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/Kinpo">
+                <div class="avatar tooltipped__user"
+                     aria-name="Kinpo"
+                     data-src="https://img.hacpai.com/avatar/1481028796895_1524449219533.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="Kinpo"
+                   href="https://hacpai.com/member/Kinpo">
+                Kinpo</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525702971349#comments" target="_self"><span
+                        class="article-level0">7</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525702971349" target="_self"><span
+                        class="article-level0">
+                        64</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/movie">电影</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%BC%A0%E8%AE%B0">传记</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E9%BB%91%E5%A5%B4">黑奴</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525702904114" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525702904114" target="_self">美国电影 -024- 为奴十二载 - 12 Years a Slave -2013</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/alanfans">
+                <div class="avatar tooltipped__user"
+                     aria-name="alanfans"
+                     data-src="https://img.hacpai.com/avatar/1472916487771_1476781787075.jpeg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="alanfans"
+                   href="https://hacpai.com/member/alanfans">
+                alanfans</a></span>
+
+                    - 取其精华，去其糟粕。
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525702904114#comments" target="_self"><span
+                        class="article-level0">1</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525702904114" target="_self"><span
+                        class="article-level0">
+                        64</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Solo">Solo</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/qna">Q&A</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90">静态资源</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525678034793" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525678034793" target="_self">solo 访问问题</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/Genji">
+                <div class="avatar tooltipped__user"
+                     aria-name="Genji"
+                     data-src="https://img.hacpai.com/avatar/1409838173971_1474260929164.gif?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="Genji"
+                   href="https://hacpai.com/member/Genji">
+                Genji</a></span>
+
+                    - 这个名字不是拼音！！！
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525678034793#comments" target="_self"><span
+                        class="article-level0">5</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525678034793" target="_self"><span
+                        class="article-level0">
+                        48</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/Java">Java</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/backend">后端</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525674135818" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525674135818" target="_self">springfox-swagger 参数是对象无限递归解决方案。</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/chunjie008">
+                <div class="avatar tooltipped__user"
+                     aria-name="chunjie008"
+                     data-src="https://img.hacpai.com/avatar/1517554951911_1517555029287.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="chunjie008"
+                   href="https://hacpai.com/member/chunjie008">
+                chunjie008</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525674135818" target="_self"><span
+                        class="article-level0">
+                        63</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E6%97%A9%E8%B5%B7">早起</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%B8%8A%E7%8F%AD">上班</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525660423227" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525660423227" target="_self">周一就不想上班，怎么办</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/Reid">
+                <div class="avatar tooltipped__user"
+                     aria-name="Reid"
+                     data-src="https://img.hacpai.com/avatar/1521019171546_1523523541374.png?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="Reid"
+                   href="https://hacpai.com/member/Reid">
+                Reid</a></span>
+
+                    - 一条有理想的咸鱼
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525660423227#comments" target="_self"><span
+                        class="article-level1">17</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525660423227" target="_self"><span
+                        class="article-level1">
+                        123</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/HacPai">黑客派</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E5%8F%8D%E9%A6%88">反馈</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E5%AF%BC%E8%88%AA">导航</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525618138284" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525618138284" target="_self">貌似发现一个问题</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/qsz1987">
+                <div class="avatar tooltipped__user"
+                     aria-name="qsz1987"
+                     data-src="https://img.hacpai.com/avatar/1524878093918_1524878210223.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="qsz1987"
+                   href="https://hacpai.com/member/qsz1987">
+                qsz1987</a></span>
+
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525618138284#comments" target="_self"><span
+                        class="article-level0">1</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525618138284" target="_self"><span
+                        class="article-level0">
+                        60</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li><li>
+    <div class="fn-flex">
+                <div class="fn-flex-1 article-list__panel">
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/negative_energy">负能量</a>&nbsp;
+                <a rel="tag" class="tag" href="https://hacpai.com/tag/%E4%B9%B1%E8%B1%A1">乱象</a>&nbsp;
+
+            <h2 class="article-list__title">
+                <a data-id="1525610956992" data-type="0" rel="bookmark"
+                   href="https://hacpai.com/article/1525610956992" target="_self">有感而发</a>
+            </h2>
+
+
+            <div class="fn-flex">
+                <a rel="nofollow" href="https://hacpai.com/member/moviegd">
+                <div class="avatar tooltipped__user"
+                     aria-name="moviegd"
+                     data-src="https://img.hacpai.com/avatar/1519036972778_1519611611355.jpg?imageView2/1/w/80/h/80/interlace/0/q/100"></div></a>
+
+                <div class="fn-ellipsis ft-fade ft-smaller list-info">
+                <span class="ft-gray">
+                <a rel="nofollow" class="ft-a-title tooltipped__user" aria-name="moviegd"
+                   href="https://hacpai.com/member/moviegd">
+                moviegd</a></span>
+
+                    - 一个电影站的站长曾在重庆某地学习过java，自己写过几天bug。
+                    <br>
+                    <a class="ft-fade" href="https://hacpai.com/article/1525610956992#comments" target="_self"><span
+                        class="article-level1">11</span> 回帖</a>
+                     •
+                    <a class="ft-fade" href="https://hacpai.com/article/1525610956992" target="_self"><span
+                        class="article-level1">
+                        127</span> 浏览</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-relative">
+        <span class="heat tooltipped tooltipped__n" aria-label="帖子活跃度"
+              style="width:0px"></span>
+    </div>
+</li>    </ul>
+</div>
+                        <div class="pagination">
+    <div class="fn__flex">
+        <div class="fn__flex-1">
+                    <span class="pagination__item pagination__item--current">1</span>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=2">2</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=3">3</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=4">4</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=5">5</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=6">6</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=7">7</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=8">8</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=9">9</a>
+                    <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派"
+                       href="https://hacpai.com/recent?p=10">10</a>
+                <span class="ft__fade pagination__item">...</span>
+                <a class="pagination__item pagination__item--a" pjax-title="最新 - 黑客派" rel="next"
+                   href="https://hacpai.com/recent?p=247">247»</a>
+        </div>
+            <span class="pagination__item">
+            <svg class="ft__fade">
+                <use xlink:href="#iconChevronLeft"></use>
+            </svg>
+        </span>
+            <a class="pagination__item pagination__item--a" href="https://hacpai.com/recent?p=2"
+               pjax-title="最新 - 黑客派">
+                <svg>
+                    <use xlink:href="#iconChevronRight"></use>
+                </svg>
+            </a>
+    </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="side">
+
+
+<div class="module">
+    <div class="module-header">
+        <h2>
+        赞助商
+            <a href="https://hacpai.com/article/1460083956075" class="fn-right"
+               target="_blank">我要投放</a>
+        </h2>
+    </div>
+    <div class="module-panel ad fn-clear">
+    <script type="text/javascript">
+    /*250*250 创建于 2018/5/2*/
+    var cpro_id = "u3429353";
+</script>
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js"></script>
+
+    </div>
+</div>
+<div class="module">
+    <div class="module-header">
+        <h2>
+        近期热议
+        </h2>
+    </div>
+    <div class="module-panel">
+        <ul class="module-list">
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/clenji">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="clenji"
+                          data-src="https://img.hacpai.com/avatar/1522241712435_1522241813426.jpg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525964979372">无任何附加条件赠送 5000 积分</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/yangyujiao">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="yangyujiao"
+                          data-src="https://img.hacpai.com/avatar/1429237272905_1483064274321.undefined?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1526000054444">20180511 TGIF</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/Reid">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="Reid"
+                          data-src="https://img.hacpai.com/avatar/1521019171546_1523523541374.png?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525660423227">周一就不想上班，怎么办</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/moviegd">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="moviegd"
+                          data-src="https://img.hacpai.com/avatar/1519036972778_1519611611355.jpg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525776055436">电影国度 - 蓝光电影下载站</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/54FCS">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="54FCS"
+                          data-src="https://img.hacpai.com/avatar/1516776184527_1516792132790.jpg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525769585398">若明日就是末日，你会做什么？</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/54FCS">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="54FCS"
+                          data-src="https://img.hacpai.com/avatar/1516776184527_1516792132790.jpg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525505390016">什么时候去台湾？</a>
+                </li>
+                <li class="last">
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/moviegd">
+                    <span class="avatar-small slogan tooltipped__user"
+                          aria-name="moviegd"
+                          data-src="https://img.hacpai.com/avatar/1519036972778_1519611611355.jpg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"></span>
+                    </a>
+                    <a rel="nofollow" class="title"
+                       href="https://hacpai.com/article/1525445224063">电影国度 - 专注电影分享 20 年</a>
+                </li>
+        </ul>
+    </div>
+</div>
+<div class="module">
+    <div class="module-header">
+        <h2>
+        推荐标签
+            <a class="fn__right" href="https://hacpai.com/tags">标签</a>
+        </h2>
+    </div>
+    <div class="module-panel">
+        <ul class="tag-desc fn-clear">
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/fangstar">
+                            <img data-src="https://static.hacpai.com/images/tags/fangstar.png"
+                                 alt="房星科技"/>
+                    房星科技
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fwww.fangstar.com" target="_blank">房星网</a>，我们不和没有钱的程序员谈理想，我们要让程序员又有理想又有钱。我们有雄厚的房地产行业线下资源，遍布昆明全城的 100 家门店、四千地产经纪人是我们坚实的后盾。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        7 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        143&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/sym">
+                            <img data-src="https://static.hacpai.com/images/tags/sym.png"
+                                 alt="Sym"/>
+                    Sym
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fsym.b3log.org" target="_blank">Sym</a> 是一个用 <a href="https://hacpai.com/tag/Java">Java</a> 实现的现代化社区（论坛 / 社交网络 / 博客）平台，“下一代的社区系统，为未来而构建”。黑客派目前就是使用该系统搭建的 ❤</p>
+<ul>
+<li><a href="https://hacpai.com/article/1486188905847">Sym 安装指南</a></li><li><a href="https://hacpai.com/article/1488603534762">客户端 API 文档</a></li></ul></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        256 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        3,063&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Pipe">
+                            <img data-src="https://static.hacpai.com/images/tags/pipe.png"
+                                 alt="Pipe"/>
+                    Pipe
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fgithub.com%2Fb3log%2Fpipe" target="_blank">Pipe</a> 是一款小而美的开源博客平台，通过 <a href="https://hacpai.com/tag/HacPai">黑客派</a> 账号登录即可使用。如果你不想自己搭建，可以直接使用我们运维的 <a href="https://hacpai.com/forward?goto=http%3A%2F%2Fpipe.b3log.org" target="_blank">http://pipe.b3log.org</a></p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        20 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        221&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/ipfs">
+                            <img data-src="https://static.hacpai.com/images/tags/ipfs.png"
+                                 alt="IPFS"/>
+                    IPFS
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fipfs.io" target="_blank">IPFS</a>（InterPlanetary File System，星际文件系统）是永久的、去中心化保存和共享文件的方法，这是一种内容可寻址、版本化、点对点超媒体的分布式协议。请浏览 <a href="https://hacpai.com/article/1511015097370">IPFS 入门笔记</a>了解更多细节。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        6 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        45&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/recruit">
+                            <img data-src="https://static.hacpai.com/images/tags/recruit.png"
+                                 alt="招聘"/>
+                    招聘
+                    </a>
+                    <div>
+                        <div><p>哪里都缺人，哪里都不缺人。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        82 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        700&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/MyBatis">
+                            <img data-src="https://static.hacpai.com/images/tags/mybatis.png"
+                                 alt="MyBatis"/>
+                    MyBatis
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fgithub.com%2Fmybatis" target="_blank">MyBatis</a> 本是 <a href="https://hacpai.com/tag/Apache">Apache</a> 软件基金会 的一个开源项目 <a href="https://hacpai.com/tag/iBATIS">iBATIS</a> ，2010 年这个项目由 <a href="https://hacpai.com/tag/Apache">Apache</a> 软件基金会迁移到了 google code，并且改名为 MyBatis ，2013 年 11 月再次迁移到了 <a href="https://hacpai.com/tag/GitHub">GitHub</a> 。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        68 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        208&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/love2d">
+                            <img data-src="https://static.hacpai.com/images/tags/love2d.png"
+                                 alt="Love2D"/>
+                    Love2D
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Flove2d.org" target="_blank">Love2D</a> 是一个开源的， 跨平台的 2D 游戏引擎。使用纯 <a href="https://hacpai.com/tag/Lua">Lua</a> 脚本来进行游戏开发。目前支持的平台有 Windows, Mac OS X, Linux, Android 和 iOS。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        15 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        51&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/HHKB">
+                            <img data-src="https://static.hacpai.com/images/tags/hhkb.png"
+                                 alt="HHKB"/>
+                    HHKB
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fwww.pfu.fujitsu.com%2Fhhkeyboard%2F" target="_blank">HHKB</a> 是富士通的 Happy Hacking 系列电容键盘。电容键盘即无接点静电电容式键盘（Capacitive Keyboard）。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        2 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        34&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/HacPai">
+                            <img data-src="https://static.hacpai.com/images/tags/hacpai.png"
+                                 alt="黑客派"/>
+                    黑客派
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fhacpai.com%2Farticle%2F1440573175609" target="_blank">黑客派</a>是程序员和设计师的社交社区，汇聚了来自程序技术领域的工程师和富有创意的设计师。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        132 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        3,171&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/H2">
+                            <img data-src="https://static.hacpai.com/images/tags/h2.png"
+                                 alt="H2"/>
+                    H2
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fh2database.com" target="_blank">H2</a> 是一个开源的嵌入式数据库引擎，采用 Java 语言编写，不受平台的限制，同时 H2 提供了一个十分方便的 web 控制台用于操作和管理数据库内容。H2 还提供兼容模式，可以兼容一些主流的数据库，因此采用 H2 作为开发期的数据库非常方便。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        5 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        14&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/ethereum">
+                            <img data-src="https://static.hacpai.com/images/tags/ethereum.png"
+                                 alt="以太坊"/>
+                    以太坊
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fwww.ethereum.org" target="_blank">以太坊</a>（Ethereum）并不是一个机构，而是一款能够在区块链上实现智能合约、开源的底层系统。以太坊是一个平台和一种编程语言 <a href="https://hacpai.com/tag/solidity">Solidity</a> ，使开发人员能够建立和发布下一代去中心化应用。 以太坊可以用来编程、分散、担保和交易任何事物：投票、域名、金融交易所、众筹、公司管理、合同和知识产权等等。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        24 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        265&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/CAP">
+                            <img data-src="https://static.hacpai.com/images/tags/cap.png"
+                                 alt="CAP"/>
+                    CAP
+                    </a>
+                    <div>
+                        <div><p>CAP 指的是在一个分布式系统中， Consistency（一致性）、 Availability（可用性）、Partition tolerance（分区容错性），三者不可兼得。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        8 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        2&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/WebSocket">
+                            <img data-src="https://static.hacpai.com/images/tags/websocket.png"
+                                 alt="WebSocket"/>
+                    WebSocket
+                    </a>
+                    <div>
+                        <div><p>WebSocket 是 <a href="https://hacpai.com/tag/HTML5">HTML5</a> 中定义的一种新协议，它实现了浏览器与服务器之间的全双工通信（full-duplex）。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        23 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        62&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/share">
+                            <img data-src="https://static.hacpai.com/images/tags/share.png"
+                                 alt="分享"/>
+                    分享
+                    </a>
+                    <div>
+                        <div><p>有什么新发现就分享给大家吧！</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        122 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        1,050&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/outsource">
+                            <img data-src="https://static.hacpai.com/images/tags/outsource.png"
+                                 alt="外包"/>
+                    外包
+                    </a>
+                    <div>
+                        <div><p>有空闲时间是接外包好呢还是学习好呢？</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        16 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        180&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/opensource">
+                            <img data-src="https://static.hacpai.com/images/tags/opensource.png"
+                                 alt="开源"/>
+                    开源
+                    </a>
+                    <div>
+                        <div><p>Open Source, Open Mind, Open Sight, Open Future!</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        132 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        1,278&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/blockchain">
+                            <img data-src="https://static.hacpai.com/images/tags/blockchain.png"
+                                 alt="区块链"/>
+                    区块链
+                    </a>
+                    <div>
+                        <div><p>区块链是分布式数据存储、点对点传输、共识机制、加密算法等计算机技术的新型应用模式。所谓共识机制是区块链系统中实现不同节点之间建立信任、获取权益的数学算法 。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        39 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        363&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Latke">
+                            <img data-src="https://static.hacpai.com/images/tags/b3log.png"
+                                 alt="Latke"/>
+                    Latke
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fgithub.com%2Fb3log%2Flatke" target="_blank">Latke</a> 是一个类似 <a href="https://hacpai.com/tag/Spring">Spring</a> 但以 JSON 为主的 Java Web 框架。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        33 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        226&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Swift">
+                            <img data-src="https://static.hacpai.com/images/tags/swift.png"
+                                 alt="Swift"/>
+                    Swift
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fswift.org" target="_blank">Swift</a> 是苹果于 2014 年 WWDC（苹果开发者大会）发布的开发语言，可与 Objective-C 共同运行于 Mac OS 和 iOS 平台，用于搭建基于苹果平台的应用程序。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        14 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        16&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/announcement">
+                            <img data-src="https://static.hacpai.com/images/tags/hacpai.png"
+                                 alt="系统公告"/>
+                    系统公告
+                    </a>
+                    <div>
+                        <div><p>黑客派系统公告，请关注 :)</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        25 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        2,113&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/RabbitMQ">
+                            <img data-src="https://static.hacpai.com/images/tags/rabbitmq.png"
+                                 alt="RabbitMQ"/>
+                    RabbitMQ
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fwww.rabbitmq.com" target="_blank">RabbitMQ</a> 是一个开源的 [AMQP] 实现，服务器端用 [Erlang] 语言编写，支持多种语言客户端，如： <a href="https://hacpai.com/tag/Python">Python</a> 、 <a href="https://hacpai.com/tag/Ruby">Ruby</a> 、[.NET] 、 <a href="https://hacpai.com/tag/Java">Java</a> 、 <a href="https://hacpai.com/tag/C">C</a> 、 <a href="https://hacpai.com/tag/PHP">PHP</a> 、 [ActionScript] 等。用于在分布式系统中存储转发消息，在易用性、扩展性、高可用性等方面表现不俗。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        23 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        55&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Z-BlogPHP">
+                            <img data-src="https://static.hacpai.com/images/tags/z-blog.png"
+                                 alt="Z-BlogPHP"/>
+                    Z-BlogPHP
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fwww.zblogcn.com" target="_blank">Z-BlogPHP</a> 基于高效的 <a href="https://hacpai.com/tag/PHP">PHP</a> 环境，体积小，速度快，支持 <a href="https://hacpai.com/tag/MySQL">MySQL</a>  和 <a href="https://hacpai.com/tag/SQLite">SQLite</a> 数据库。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        1 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        28&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/hexo">
+                            <img data-src="https://static.hacpai.com/images/tags/hexo.png"
+                                 alt="Hexo"/>
+                    Hexo
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fhexo.io%2Fzh-cn%2F" target="_blank">Hexo</a> 是一款快速、简洁且高效的博客框架，使用 <a href="https://hacpai.com/tag/Node.js">Node.js</a> 编写。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        10 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        62&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Hprose">
+                            <img data-src="https://static.hacpai.com/images/tags/hprose.png"
+                                 alt="Hprose"/>
+                    Hprose
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=http%3A%2F%2Fhprose.com" target="_blank">Hprose</a> 是一款先进的轻量级、跨语言、跨平台、无侵入式、高性能动态远程对象调用引擎库。它不仅简单易用，而且功能强大。你无需专门学习，只需看上几眼，就能用它轻松构建分布式应用系统。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        9 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        17&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Sandbox">
+                            <img data-src="https://static.hacpai.com/images/tags/sandbox.png"
+                                 alt="Sandbox"/>
+                    Sandbox
+                    </a>
+                    <div>
+                        <div><p>如果帖子带了 Sandbox 标签（不区分大小写），则帖子将视为“测试帖”，比如测试 <a href="https://hacpai.com/tag/sym">Sym</a> 功能，排查 bug 等场景。只要带了这个标签，则自动去除其他标签；并且帖子不会在首页 / 领域显示，只有在发帖者自己的帖子列表中可以看到。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        318 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        1,089&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/JavaScript">
+                            <img data-src="https://static.hacpai.com/images/tags/javascript.png"
+                                 alt="JavaScript"/>
+                    JavaScript
+                    </a>
+                    <div>
+                        <div><p>JavaScript 一种动态类型、弱类型、基于原型的直译式脚本语言，内置支持类型。它的解释器被称为 JavaScript 引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在 <a href="https://hacpai.com/tag/HTML">HTML</a> 网页上使用，用来给 <a href="https://hacpai.com/tag/HTML">HTML</a> 网页增加动态功能。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        216 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        700&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" href="https://hacpai.com/tag/Firefox">
+                            <img data-src="https://static.hacpai.com/images/tags/firefox.png"
+                                 alt="Firefox"/>
+                    Firefox
+                    </a>
+                    <div>
+                        <div><p><a href="https://hacpai.com/forward?goto=https%3A%2F%2Fwww.mozilla.org%2Fen-US%2Ffirefox%2Fproducts" target="_blank">Mozilla Firefox</a> 中文俗称“火狐”（正式缩写为 Fx 或 fx，非正式缩写为 FF），是一个 <a href="https://hacpai.com/tag/opensource">开源</a> 的网页浏览器，使用 [Gecko] 排版引擎，支持多种操作系统，如 <a href="https://hacpai.com/tag/Windows">Windows</a> 、 <a href="https://hacpai.com/tag/OSX">OSX</a> 及 <a href="https://hacpai.com/tag/Linux">Linux</a> 等。</p></div>
+                        <span class="fn-right">
+                        <span class="ft-gray">引用</span>
+                        4 &nbsp;
+                        <span class="ft-gray">回帖</span>
+                        28&nbsp;
+                    </span>
+
+                    </div>
+                </li>
+        </ul>
+    </div>
+</div>
+<div class="module">
+    <div class="module-header">
+        <h2>
+        随便看看
+        </h2>
+    </div>
+    <div class="module-panel">
+        <ul class="module-list">
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/crick77">
+                    <span data-src="https://img.hacpai.com/avatar/1369914649233_1498353453085.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="crick77"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1462497182917">动态代理实现----CGLib篇</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/vat">
+                    <span data-src="https://img.hacpai.com/avatar/1524293806642?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="vat"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1524462219926">以太坊开发技术资料中文 pdf 电子书</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/alanfans">
+                    <span data-src="https://img.hacpai.com/avatar/1472916487771_1476781787075.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="alanfans"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1485611402298">日本老电影 -003- 寒椿 -Kantsubaki.1992</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/linyu">
+                    <span data-src="https://img.hacpai.com/avatar/1487766179761_1487770394827.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="linyu"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1488337310326">linux 命令 -mysqladmin</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/hh">
+                    <span data-src="https://img.hacpai.com/avatar/1440727782771_1488691171573.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="hh"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1444700940110">请问有没有golang多线程模拟并发请求的例子</a>
+                </li>
+                <li>
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/crick77">
+                    <span data-src="https://img.hacpai.com/avatar/1369914649233_1498353453085.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="crick77"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1470734182732">私活：爬虫&amp;电商</a>
+                </li>
+                <li class="last">
+                    <a rel="nofollow"
+                       href="https://hacpai.com/member/luozx">
+                    <span data-src="https://img.hacpai.com/avatar/1492730883024_1493060455821.jpeg?imageView2/1/w/52/h/52/format/jpg/interlace/0/q/100"
+                          aria-name="luozx"
+                          class="avatar-small slogan tooltipped__user"></span>
+                    </a>
+                    <a class="title" rel="nofollow"
+                       href="https://hacpai.com/article/1495302751019">2017-05-20</a>
+                </li>
+        </ul>
+    </div>
+</div>
+<div class="module">
+    <div class="module-header">
+        <h2>
+        最新标签
+        </h2>
+    </div>
+    <div class="module-panel">
+        <ul class="fn-clear tags">
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E9%98%BF%E7%A6%BB">阿离</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E7%AB%8B%E5%B8%96%E4%B8%BA%E8%AF%81">立帖为证</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/XSpreadsheet">XSpreadsheet</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E8%AF%AF%E7%AE%97%E7%8E%87">误算率</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E5%A4%A7%E4%BC%97%E5%BF%83%E7%90%86">大众心理</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/ntp">ntp</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E5%A4%8D%E6%9D%82%E6%80%A7">复杂性</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80">计算机基础</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/4k">4K</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E8%93%9D%E5%85%89">蓝光</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E6%9C%AB%E6%97%A5">末日</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/kong">kong</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/Gateway">Gateway</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/CFI">CFI</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E6%B2%89%E6%80%9D">沉思</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E6%95%B0%E5%AD%97%E6%B0%91%E4%B8%BB%E5%8C%96">数字民主化</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%BD%AE%E6%9D%83">数据处置权</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E9%85%B8%E9%85%B8%E4%B9%B3">酸酸乳</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E9%BB%91%E5%A5%B4">黑奴</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F">监控系统</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90">静态资源</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/FPM">FPM</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/ipcs">ipcs</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E6%97%A9%E8%B5%B7">早起</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E4%B9%B1%E8%B1%A1">乱象</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E5%B9%BF%E5%9C%BA">广场</a> &nbsp;
+                </li>
+                <li>
+                    <a class="ft-gray ft-13" rel="nofollow"
+                       href="https://hacpai.com/tag/%E4%B8%9C%E4%BA%AC%E4%B8%8D%E5%A4%AA%E5%86%B7">东京不太冷</a> &nbsp;
+                </li>
+        </ul>
+    </div>
+</div>
+<div class="module">
+    <div class="module-header">
+        <h2>
+        贡献开源
+            <a class="fn-right" href="https://github.com/b3log/" target="_blank">GitHub</a>
+        </h2>
+    </div>
+    <div class="module-panel">
+        <ul class="module-list open-source">
+            <li>
+                <b class="ft-red slogan">【Solo】</b>
+                <a class="title" target="_blank" rel="noopener" href="https://hacpai.com/forward?goto=https://github.com/b3log/solo">GitHub 上 Star 数最多的
+                    Java 博客</a>
+            </li>
+            <li class="last">
+                <b class="ft-green slogan">【Sym】</b>
+                <a class="title" target="_blank" rel="noopener" href="https://hacpai.com/forward?goto=https://github.com/b3log/symphony">现代化的社区论坛系统</a>
+            </li>
+            <li class="last">
+                <b class="ft-gray slogan">【Pipe】</b>
+                <a class="title" target="_blank" rel="noopener" href="https://hacpai.com/forward?goto=https://github.com/b3log/pipe">小而美的博客平台</a>
+            </li>
+            <li>
+                <b class="ft-blue slogan">【Wide】</b>
+                <a class="title" target="_blank" rel="noopener" href="https://hacpai.com/forward?goto=https://github.com/b3log/wide">Golang 黑科技之在线
+                    IDE </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+<div class="main__down">
+    <div class="wrapper">
+    <div class="module domains-module">
+        <div class="module-panel">
+            <ul class="module-list domain">
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/play">好玩</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/game">游戏</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/movie">电影</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/music">音乐</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/travel">旅游</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/OCD">强迫症</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/TGIF">TGIF</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/negative_energy">负能量</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/opensource">开源</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/%E5%A5%BD%E7%8E%A9">好玩</a> &nbsp;
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/blockchain">区块链</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/blockchain">区块链</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/btc">比特币</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/ethereum">以太坊</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/ipfs">IPFS</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/decentral">去中心化</a> &nbsp;
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/frontend">前端</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Vue.js">Vue.js</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/webpack">webpack</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Node.js">Node.js</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/HTML">HTML</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/CSS">CSS</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/JavaScript">JavaScript</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Angular">Angular</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/React">React</a> &nbsp;
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/backend">后端</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Java">Java</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/golang">golang</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Node.js">Node.js</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Python">Python</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/database">数据库</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Spring">Spring</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/cpp">C++</a> &nbsp;
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/jobs">工作</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/recruit">招聘</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/startup">创业</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/interview">面试</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/SOHO">SOHO</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/outsource">外包</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/workplace">职场</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/%E6%B1%82%E8%81%8C">求职</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/%E7%A6%BB%E8%81%8C">离职</a> &nbsp;
+                    </div>
+                </li>
+                <li>
+                    <a rel="nofollow" class="slogan ft-a-title" href="https://hacpai.com/domain/b3">B3</a>
+                    <div class="title">
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/B3log">B3log</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/HacPai">黑客派</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Solo">Solo</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/Wide">Wide</a> &nbsp;
+                        <a class="ft-gray ft-13" rel="nofollow" href="https://hacpai.com/tag/sym">Sym</a> &nbsp;
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="wrapper">
+        <div class="fn-clear">
+            <div class="slogan">
+            为未来而构建的社区<!-- 未来这里将是 IT 失业者、报废码农的大本营 --> &nbsp; &nbsp;
+                <a href="https://github.com/b3log/symphony" target="_blank" rel="noopener"
+                   class="tooltipped tooltipped__n"
+                   aria-label="本站源代码">
+                    <svg class="icon-github">
+                        <use xlink:href="#iconGithub"></use>
+                    </svg>
+                </a> &nbsp;
+                <a href="http://weibo.com/u/2778228501" target="_blank" rel="noopener" class="tooltipped tooltipped__n"
+                   aria-label="关注微博">
+                    <svg class="icon-weibo">
+                        <use xlink:href="#iconWeibo"></use>
+                    </svg>
+                </a> &nbsp;
+                <a target="_blank" rel="noopener" class="tooltipped tooltipped__n" aria-label="加入 QQ 群"
+                   href="//jq.qq.com/?_wv=1027&k=50iQX8Z">
+                    <svg class="icon-qq">
+                        <use xlink:href="#iconQQ"></use>
+                    </svg>
+                </a> &nbsp;
+                <a target="_blank" rel="noopener" class="tooltipped tooltipped__n" aria-label="加入电报群"
+                   href="https://t.me/b3log">
+                    <svg class="icon-telegram">
+                        <use xlink:href="#iconTelegram"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="fn-right">
+                <img src="https://static.hacpai.com/images/mp.jpg" class="mp__img"/>
+                <div class="mp__text">微信扫一扫</div>
+            </div>
+        </div>
+
+        <div class="footer-nav fn-clear">
+            <a rel="help" href="https://hacpai.com/about">关于</a>
+            <a href="https://hacpai.com/article/1457158841475">API</a>
+            <a href="https://hacpai.com/tag/announcement">公告</a>
+            <a href="https://hacpai.com/domains">领域</a>
+            <a href="https://hacpai.com/tags">标签</a>
+            <a href="https://hacpai.com/statistic">数据统计</a>
+            <a href="https://hacpai.com/article/1460083956075">广告投放</a>
+
+            <div class="fn-right">&COPY; 2018
+                <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+            黑客与画家</div>
+        </div>
+        <div class="fn-clear ft-smaller">
+        Feel easy about trust.
+            <div class="fn-right">
+                Powered by <a href="https://b3log.org" rel="noopener" target="_blank">B3log 开源</a> •
+                <a href="https://sym.b3log.org" rel="noopener" target="_blank">Sym</a>
+            2.7.0 • 123ms
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://static.hacpai.com/skins/classic/js/symbol-defs.min.js?1525247914201"></script>
+<script src="https://static.hacpai.com/js/lib/compress/libs.min.js?1525247914201"></script>
+<script src="https://static.hacpai.com/js/common.min.js?1525247914201"></script>
+<script>
+    var Label = {
+        imgMaxSize: 5242880,
+        fileMaxSize: 10485760,
+        miniPostfix: '.min',
+        messageLabel: '消息',
+        desktopNotificationTemplateLabel: '你有 ${count} 条未读消息',
+        invalidPasswordLabel: '密码格式有误（数字及字母组合，长度 6-16）',
+        loginNameErrorLabel: '登录名称长度 1-256',
+        followLabel: '关注',
+        unfollowLabel: '取消关注',
+        symphonyLabel: '黑客派',
+        visionLabel: '黑客与画家',
+        cmtLabel: '回帖',
+        collectLabel: '收藏',
+        uncollectLabel: '取消收藏',
+        copyLabel: '复制',
+        copiedLabel: '已复制',
+        servePath: 'https://hacpai.com',
+        staticServePath: 'https://static.hacpai.com',
+        isLoggedIn: false,
+        funNeedLoginLabel: '登录后才能使用该功能',
+        notificationCommentedLabel: '收到的回帖',
+        notificationReplyLabel: '收到的回复',
+        notificationAtLabel: '提及我的',
+        notificationFollowingLabel: '我关注的',
+        pointLabel: '积分',
+        sameCityLabel: '同城',
+        systemLabel: '系统',
+        walletLabel: '钱包',
+        newFollowerLabel: '新关注者',
+        makeAsReadLabel: '标记为已读',
+        commaLabel: '，',
+        canDragLabel: '可拖拽',
+        staticResourceVersion: '1525247914201',
+        setEmotionLabel: '设置常用表情',
+        year: '2018'
+        }
+
+
+    Util.init(false)
+
+
+</script>
+<script src="https://static.hacpai.com/js/lib/algolia/algolia.min.js"></script>
+<script>
+    Util.initSearch('RORM6JWE5I', '71dbdd62005849ec443fbb8aa973a131', 'HacPai')
+</script>
+
+<script src="https://static.hacpai.com/js/channel.min.js?1525247914201"></script>
+<script>
+    // Init [Article List] channel
+    ArticleListChannel.init("wss://hacpai.com:/article-list-channel?articleIds=1526000054444,1525964979372,1525961874479,1525940224585,1525932429629,1525922923572,1525921023784,1525887207949,1525858077232,1525849219148,1525847785573,1525776055436,1525769585398,1525746557196,1525746398933,1525744808024,1525744091423,1525712892329,1525702971349,1525702904114,1525678034793,1525674135818,1525660423227,1525618138284,1525610956992");
+</script>
+        <script>
+            $.pjax({
+                selector: 'a',
+                container: '#recent-pjax-container',
+                show: '',
+                cache: false,
+                storage: true,
+                titleSuffix: '',
+                filter: function(href){
+                    return 0 > href.indexOf('https://hacpai.com/recent');
+                },
+                callback: function () {
+                    Util.lazyLoadCSSImage();
+                }
+            });
+            NProgress.configure({ showSpinner: false });
+            $('#recent-pjax-container').bind('pjax.start', function(){
+                NProgress.start();
+            });
+            $('#recent-pjax-container').bind('pjax.end', function(){
+                NProgress.done();
+            });
+        </script>
+    </body>
+</html>
+
+<!-- Generated by Latke (https://github.com/b3log/latke) in 127ms, 2018/05/11 09:52:37 -->': failed to load external entity "<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <head>
+<meta http-equiv="X-UA-Compatible" cont
+
+Process finished with exit code 1
