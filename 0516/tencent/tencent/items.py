@@ -11,4 +11,8 @@ import scrapy
 class TencentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    # 文章标题
+    article_name = scrapy.Field()
+
+    # 文章链接
+    article_link = scrapy.Field()
