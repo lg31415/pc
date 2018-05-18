@@ -15,21 +15,27 @@ class TencentpositionSpider(CrawlSpider):
     ]
 
     rules = (
+        Rule(LinkExtractor(allow=r'fid=3')),
         Rule(LinkExtractor(allow=r'page=\d+'), callback='parse_item', follow=False),
     )
 
     def parse_item(self, response):
-        item = TencentItem()
-        #content = response.text
-        #bodys = response.xpath('//tbody')
-        name = response.xpath('//tr/td/h3/a/text()').extract()
-        # print(type(name))
-        names = ''.join(name)
-        item['article_name'] = names
-        link = response.xpath('//tr/td/h3/a/@href').extract()
-        # print(type(link))
-        links = ''.join(link)
-        # l = ''.join(l)
 
-        item['article_link'] = 'http://d2.sku117.org/pw/' + links
+        item = TencentItem()
+        # #content = response.text
+        # #bodys = response.xpath('//tbody')
+        name = response.xpath('//tr/td/h3/a/text()').extract()
+        if len(name) == 0:
+            pass
+        else:
+            for i in name:
+                i = ''.join(i)
+                item['article_name'] = i
+        link = response.xpath('//tr/td/h3/a/@href').extract()
+        if len(link) == 0:
+            pass
+        else:
+            for l in link:
+                l = ''.join(l)
+                item['article_link'] = 'http://d2.sku117.org/pw/' + l
         yield item
